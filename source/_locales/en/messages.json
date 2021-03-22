@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Live video recorder"
+  },
+  "appDesc": {
+    "message": "Record live stream!"
+  },
+  "start": {
+    "message": "Start recording"
+  },
+  "stop": {
+    "message": "Stop recording"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "现场录像机"
+  },
+  "appDesc": {
+    "message": "录制直播！"
+  },
+  "start": {
+    "message": "开始录制"
+  },
+  "stop": {
+    "message": "停止录音"
+  }
+}

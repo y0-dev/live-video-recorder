@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "ライブビデオレコーダー"
+  },
+  "appDesc": {
+    "message": "ライブストリームを録画！"
+  },
+  "start": {
+    "message": "録音開始"
+  },
+  "stop": {
+    "message": "記録を停止"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Enregistreur vidéo en direct"
+  },
+  "appDesc": {
+    "message": "Enregistrer le flux en direct!"
+  },
+  "start": {
+    "message": "Commencer l'enregistrement"
+  },
+  "stop": {
+    "message": "Arrêter l'enregistrement"
+  }
+}
