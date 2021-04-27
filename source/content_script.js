@@ -18,16 +18,26 @@ function startRecording() {
 	};
 	recorder.start();
 	video.addEventListener('ended', Over, false);
+	
+	var style = document.createElement("STYLE");
+	var css = '.zlvring::after {content: "•"; color: red; font-weight: bold; font-size: xx-large; position: relative; margin: 2px;}';
+	style.appendChild(document.createTextNode(css));
+	document.body.appendChild(style);
+	video.parentElement.classList.add("zlvring");
+
   } catch (error) {
 	  alert(error.name);
   }
 }
 
 function Over() {
-	video.removeEventListener('ended', Over, false);
 	chrome.runtime.sendMessage('stop');
 }
 
 function stopRecording() {
   if(recorder && recorder.state != 'inactive') recorder.stop();
+  if(video){
+	video.parentElement.classList.remove("zlvring");
+	video.removeEventListener('ended', Over, false);
+  }
 }
